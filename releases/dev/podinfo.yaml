@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: linuxbsdfreak/podinfo:dev-hdtwcel9
+    image: linuxbsdfreak/podinfo:dev-poz07gbk
     replicaCount: 1
     hpa:
       enabled: false

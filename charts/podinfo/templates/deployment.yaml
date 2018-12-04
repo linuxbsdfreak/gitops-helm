@@ -49,6 +49,8 @@ spec:
           volumeMounts:
           - name: data
             mountPath: /data
+      imagePullSecrets:
+        - name: {{ .Values.secret }} 
           resources:
 {{ toYaml .Values.resources | indent 12 }}
     {{- with .Values.nodeSelector }}

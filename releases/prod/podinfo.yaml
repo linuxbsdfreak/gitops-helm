@@ -14,5 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: linuxbsdfreak/podinfo:0.4.15
-    replicaCount: 3
+    #image: linuxbsdfreak/podinfo:0.4.15
+    image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:dev-poz07gbk
+    secret: image-pull-secret  
+    replicaCount: 1

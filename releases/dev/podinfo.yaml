@@ -16,7 +16,7 @@ spec:
   values:
     #image: linuxbsdfreak/podinfo:dev-poz07gbk
     image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:0.4.11
-    secret: image-pull-secret  
+    secret: image-pull-secret-2
     replicaCount: 1
     hpa:
       enabled: false

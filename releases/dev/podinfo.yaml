@@ -15,7 +15,7 @@ spec:
     ref: master
   values:
     #image: linuxbsdfreak/podinfo:dev-poz07gbk
-    image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:dev-cn0bbliz
+    image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:dev-f9q5czop
     secret: image-pull-secret-2
     replicaCount: 1
     hpa:

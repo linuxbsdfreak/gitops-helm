@@ -16,5 +16,5 @@ spec:
   values:
     #image: linuxbsdfreak/podinfo:0.4.15
     image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:0.4.12
-    secret: registry-secrets
+    secret: registry-secrets-prod-customer1
     replicaCount: 1

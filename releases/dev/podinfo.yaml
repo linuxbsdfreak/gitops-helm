@@ -18,7 +18,7 @@ spec:
   values:
     #image: linuxbsdfreak/podinfo:dev-poz07gbk
     image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:dev-ppookwrw
-    secret: registry-secrets-dev
+    secret: docker-reg-secret
     replicaCount: 1
     hpa:
       enabled: false

@@ -16,7 +16,7 @@ spec:
   values:
     #image: linuxbsdfreak/podinfo:stg-7id4w4nk
     image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:stg-vrjoyadd
-    secret: registry-secrets-stg
+    secret: docker-reg-secret
     replicaCount: 1
     hpa:
       enabled: true

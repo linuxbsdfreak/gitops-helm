@@ -17,7 +17,7 @@ spec:
     ref: master
   values:
     #image: linuxbsdfreak/podinfo:dev-poz07gbk
-    image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:dev-pp4v3lar
+    image: abapcp-k8s.docker.repositories.sap.ondemand.com/k8s-podinfo:dev-ak4upgnx
     secret: docker-reg-secret
     replicaCount: 1
     hpa:
